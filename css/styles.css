@@ -1,3 +1,70 @@
+/*
+COLOR PALETTE
+https://coolors.co/ca054d-ddfff7-f0b67f-fe5f55-d6d1b1
+#CA054D - Pictorial Carmine
+#DDFFF7 - Light Cyan
+#F0B67F - Middle Yellow Red
+#FE5F55 - Orange Red Crayola
+#D6D1B1 - Dutch White
+#343434 - Dark Gray
+#FDFFF7 - Mint Cream
+#FFED65 - Corn
+*/
+
+/* Global styles
+-------------------------------------*/
+body {
+    color: #343434;
+}
 img {
     width: 300px;
+}
+a {
+    color: #FFED65;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Profile
+-------------------------------------*/
+header {
+    background-color: #CA054D;
+    color: #FDFFF7;
+}
+
+/* Projects
+-------------------------------------*/
+.project {
+    background-color: #FDFFF7;
+}
+.project a {
+    color: #CA054D;
+}
+.project .btn {
+    color: #FDFFF7;
+    background: #CA054D;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.project .btn:hover {
+    background: rgba(202, 5, 77, 80%);
+}
+
+/* Work Experience
+-------------------------------------*/
+.work-experience {
+    background-color: #DDFFF7;
+}
+
+/* Education
+-------------------------------------*/
+
+
+/* Contact Info
+-------------------------------------*/
+footer {
+    background-color: #343434;
+    color: #FDFFF7;
 }
