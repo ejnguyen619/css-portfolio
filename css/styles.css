@@ -86,7 +86,8 @@ header {
 }
 .project-item img {
     float: left;
-    margin-right: 20px; 
+    margin-right: 20px;
+    height: 201px; 
 }
 .project-item h3 {
     margin-top: 0;
